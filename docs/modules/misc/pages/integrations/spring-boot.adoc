@@ -91,7 +91,7 @@ a new `EmbeddedStorageManager` or `EmbeddedStorageFoundationFactory` to create a
         //storageFoundation.onConnectionFoundation(f -> f.someOperation);
 
         // Create a new StorageManager
-        return managerFactory.createEmbeddedStorageManager(storageFoundation, true);
+        return managerFactory.createStorage(storageFoundation, true);
     }
 
 ----
